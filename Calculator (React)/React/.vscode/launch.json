@@ -1,0 +1,22 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Open index.html (Chrome)",
+            "type": "chrome",
+            "request": "launch",
+            "webRoot": "${workspaceFolder}",
+            "file": "index.html"
+        },
+        {
+            "name": "Open index.html (Edge)",
+            "type": "msedge",
+            "request": "launch",
+            "webRoot": "${workspaceFolder}",
+            "file": "index.html",
+        },
+    ]
+}
