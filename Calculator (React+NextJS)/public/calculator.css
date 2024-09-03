@@ -1,0 +1,78 @@
+.CalculatorParent
+{
+    align-content: center;
+    border: 2px solid darkblue;
+    border-radius: 10px;
+    background-color: royalblue;
+    padding: 25px;
+    height: 500px;
+    width: 350px;
+    table-layout: fixed;
+    position: relative;
+    box-shadow: 10px 10px 15px -3px rgba(0, 0, 0, 0.5);
+    margin: 30px;
+}
+
+.CalculatorTable1,
+.CalculatorTable2
+{
+    margin: 0px;
+    padding: 0px;
+    height: auto;
+    width: 100%;
+    table-layout: fixed;
+}
+
+#DisplayBorder
+{
+    border: 10px solid darkblue;
+    border-radius: 5px;
+    background-color: lightgray;
+    height: 50px;
+    margin: 0px;
+    padding: 5px 10px;
+    vertical-align: middle;
+}
+
+#Display
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'digital-7';
+    font-size: xx-large;
+    text-align: right;
+}
+
+#DisplaySpacer
+{
+    height: 10px;
+}
+
+button
+{
+    border-radius: 5px;
+    height: 60px;
+    width: 100%;
+}
+
+.MemButton
+{
+    background-color: black;
+    color: white;
+    height: 20px;
+}
+
+.ClearButton
+{
+    background-color: lightcoral;
+}
+
+.EqualsButton
+{
+    background-color: aquamarine;
+}
+
+.OperationButton
+{
+    background-color: deepskyblue;
+}
